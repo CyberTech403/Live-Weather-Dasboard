@@ -1,0 +1,70 @@
+body {
+  background: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D=crop&w=2970&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/****  header & button *****/
+
+header,
+.forecast-header {
+  font-size: 1.55rem;
+  text-align: center;
+  line-height: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.637);
+
+}
+
+header,
+#search-button,
+.forecast-header {
+  color: white;
+}
+
+.search-history {
+  text-align: center;
+  padding-top: 0.75rem;
+}
+
+/****** current weather display ******/
+#current-weather {
+  line-height: 250%;
+  background-color: aliceblue;
+}
+
+.date-time {
+  display: grid;
+  justify-content:space-evenly;
+}
+
+.weather-conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/***** 5 day forecast  ******/
+
+.forecast-five-day {
+  list-style: none;
+  text-align:justify;
+  display: inline-block;
+  padding: 0.70rem;
+  margin: 0.52rem;
+  background: rgb(226, 250, 255);
+  border-radius: 12px;
+}
+
+#forecast {
+  background-color: aliceblue;
+}
+
+.forecast-five-day {
+  box-shadow: 2px 4px 1px ;
+}
+
+.forecast-five-day li {
+  position: relative;
+  vertical-align: top;
+}
